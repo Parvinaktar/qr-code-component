@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+}
+:root{
+--White: hsl(0, 0%, 100%);
+--Lightgray: hsl(212, 45%, 89%);
+--Grayishblue: hsl(220, 15%, 55%);
+--Darkblue: hsl(218, 44%, 22%);
+--outfit:'Outfit', sans-serif;
+}
+.heroimage{
+  display: flex;
+    height: 100vh;
+    width: 100%;
+align-items: center;
+justify-content: center;
+    background-color: rgb(197, 197, 249);
+    margin: 0%;
+}
+.qr{
+height: 400px;
+width: 270px;
+border-radius: 15px;
+background-color: white;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.tinku{
+
+    height: 230px;
+    width: 250px;
+    background-color: rgb(40, 40, 236);
+ margin-top: 10px;
+    border-radius: 10px;
+    background-image: url(./images/image-qr-code.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.tuhi{
+  text-align: center;
+  margin: 20px 10px 0 10px;
+  font-family: var(--outfit);
+}
+.tuhi h4{
+  color: var(--Darkblue);
+  margin-bottom:8px ;
+  font-size: 20px;
+  
+}
+.tuhi p{
+  color: var(--Grayishblue);
+}
